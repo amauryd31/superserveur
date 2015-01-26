@@ -1,0 +1,13 @@
+
+
+3.2.1 ) 
+
+1) le client est deconnecte
+2) rien
+3) telnet localhost 8080 -> se connecte au serveur
+
+4) Trying 172.18.48.170...
+telnet: connect to address 172.18.48.170: Connection refused
+telnet: Unable to connect to remote host: Connection refused
+sur les deux client
+
