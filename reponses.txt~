@@ -11,3 +11,17 @@ telnet: connect to address 172.18.48.170: Connection refused
 telnet: Unable to connect to remote host: Connection refused
 sur les deux client
 
+
+
+5.2.1) Manipulations préliminaires
+----------------------------------
+
+2) Commande à exécuter : curl --noproxy localhost http://localhost:8080/
+
+3) On a :
+	<Superserveur> GET / HTTP/1.1		--> Methode(allow)  = Ligne de commande (Commande, URL, Version de protocole)
+	<Superserveur> User-Agent: curl/7.26.0  --> Request header = Identifie l'agent utilisateur
+	<Superserveur> Host: localhost:8080	--> Ressource = En-tête de requête
+	<Superserveur> Accept: */*		--> Requet header = Cet en-tête liste les types MIME de contenu acceptés par le client.
+
+4) De plus, le message d'accueil est affiché sur le terminal associé au client.
